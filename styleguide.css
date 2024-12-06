@@ -1,0 +1,28 @@
+:root {
+    --button-button-general-bg: rgba(255, 255, 255, 1);
+    --button-button-general-logo: rgba(18, 18, 18, 1);
+    --button-button-general-outline: rgba(247, 247, 247, 1);
+    --corner-radius-flat: 0px;
+    --corner-radius-rounded: 100px;
+    --corner-radius-semi-rounded: 12px;
+    --variable-collection-glass: rgba(255, 255, 255, 0.03);
+    --variable-collection-glass-duplicate: rgba(255, 255, 255, 0.03);
+    --variable-collection-glass-stroke: rgba(255, 255, 255, 0.6);
+    --variable-collection-glass-stroke-duplicate: rgba(255, 255, 255, 0.6);
+    --variable-collection-input-box: rgba(30, 31, 32, 1);
+    --variable-collection-input-box-stroke: rgba(255, 255, 255, 0.6);
+  }
+  
+  
+  [data-button-mode="light-mode"] {
+    --button-button-general-bg: rgba(255, 255, 255, 1);
+    --button-button-general-logo: rgba(18, 18, 18, 1);
+    --button-button-general-outline: rgba(247, 247, 247, 1);
+  }
+  
+  [data-button-mode="dark-mode"] {
+    --button-button-general-bg: rgba(39, 38, 38, 1);
+    --button-button-general-logo: rgba(243, 243, 243, 1);
+    --button-button-general-outline: rgba(57, 56, 56, 1);
+  }
+  
